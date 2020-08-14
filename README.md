@@ -5,6 +5,7 @@
      - 프로젝트 생성 : `npm create create-react-app` 
      - Material UI 적용 : `npm install @material-ui/icons`
      - React Router 적용 : `npm install react-router-dom`
+     - React Tinder Card 라이브러리 적용 : `npm install react-tinder-card`
  - VSCode 
      - Extension : `ES7 React/Redux/GraphQL/React-Native snippets`
 
@@ -18,7 +19,7 @@
  - ~~[v0.0.3][v0.0.3] : Material UI 적용 : Header 메뉴 생성~~ 
  - ~~[v0.0.4][v0.0.4] : Header 메뉴 버튼 에니매이션 적용~~
  - ~~[v0.0.5][v0.0.5] : React Router를 사용하여 화면 렌더링 기능 생성~~
-
+ - ~~[v0.0.6][v0.0.6] : Tinder Card 컴포넌트 생성~~
 ## 실행 커맨드 목록 
 
 #### `npm start`
@@ -52,3 +53,4 @@
 [v0.0.3]: http://ginno.synology.me:3000/EDUCATION/tinder-clone/src/v0.0.3
 [v0.0.4]: http://ginno.synology.me:3000/EDUCATION/tinder-clone/src/v0.0.4
 [v0.0.5]: http://ginno.synology.me:3000/EDUCATION/tinder-clone/src/v0.0.5
+[v0.0.6]: http://ginno.synology.me:3000/EDUCATION/tinder-clone/src/v0.0.6
