@@ -1,5 +1,6 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import TinderCard from "react-tinder-card";
+import database from "./firebase";
 import "./TinderCards.css";
 
 function TinderCards() {
@@ -13,6 +14,14 @@ function TinderCards() {
             url: 'https://static6.businessinsider.com/image/5bed3c39110d4c1e971b25b2-1320/mark-zuckerberg.jpg'
         }
     ]);
+    // Piece of code which runs based on a condition
+    useEffect(() => {
+        database
+            .collection('people')
+            .onSnapshot((snapshot) => 
+                setPeople(snapshot.docs.map((doc) => doc.data()))
+            );
+    }, []);
 
     // BAD
     // const people = [];
